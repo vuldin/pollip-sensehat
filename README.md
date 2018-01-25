@@ -1,14 +1,16 @@
-# pollip
+# pollip-sensehat
 
-Polls the v4 and/or v6 for status changes, prints details to SenseHat
+Polls the Raspberry Pi for changes to the v4 or v6 IP addresses and prints details to SenseHat.
 
 ## instructions
 
-click: displays the IP (IPv6 by default)
-down: changes to display IPv4
-up: changes to display IPv6
+* click: displays the IP (IPv6 by default)
+* down: changes to display IPv4
+* up: changes to display IPv6
 
 ## requirements
+
+This app requires a Raspberry-Pi and the [sensehat](https://www.raspberrypi.org/products/sense-hat/) hardware.
 
 Install node:
 ```
